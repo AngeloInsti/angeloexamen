@@ -1,0 +1,52 @@
+http://localhost:9013/angelolibro/
+
+[
+  {
+    "id": 1,
+    "titulo": "Mi libro"
+  },
+  {
+    "id": 2,
+    "titulo": "Cronicas"
+  },
+  {
+    "id": 3,
+    "titulo": "Geometria"
+  }
+]
+
+http://localhost:9013/angeloautor/
+  
+{
+    "id": 1,
+    "nombre": "Angelo",
+    "fecha_nacimiento": "2003-05-19",
+    "edad": 21,
+    "estado": true,
+    "angeloLibro": {
+      "id": 1,
+      "titulo": "Mi libro"
+    }
+  }
+
+
+{
+    "id": 2,
+    "nombre": "Stiven",
+    "fecha_nacimiento": "2004-05-20",
+    "edad": 21,
+    "estado": false,
+    "angeloLibro": {
+      "id": 3,
+      "titulo": "Geometria"
+    }
+  }
+
+
+DLETE
+
+http://localhost:9013/angelolibro/nombre/Angelo
+
+
+Swagger
+http://localhost:9013/swagger-ui/index.html#/
